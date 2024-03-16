@@ -263,16 +263,24 @@ const projects = [
       "The project targets to Tourism Domain Of the Govt. sector,integration of all the govt. affiliates databases is the core concept of our project!.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "js",
         color: "pink-text-gradient",
+      },
+      {
+        name: "php",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "sql",
+        color: "green-text-gradient",
       },
     ],
     image: sih,
