@@ -47,21 +47,40 @@ const ExperienceCard = ({ experience }) => (
   </VerticalTimelineElement>
 );
 const Experience = () => {
-  return (
-    <>
-      <motion.div variants={textVariant()}>
+  const isMobile = window.matchMedia("(max-width: 500px)").matches;
+
+  if (!isMobile) {
+    return (
+      <>
+        <motion.div variants={textVariant()}>
+          <p className={styles.sectionSubText}>My Journey so far</p>
+          <h2 className={styles.sectionHeadText}>Timeline.</h2>
+        </motion.div>
+        <div className="mt-20 flex flex-col">
+          <VerticalTimeline>
+            {experiences.map((experience, index) => (
+              <ExperienceCard key={index} experience={experience} />
+            ))}
+          </VerticalTimeline>
+        </div>
+      </>
+    );
+  }
+  if (isMobile) {
+    return (
+      <>
         <p className={styles.sectionSubText}>My Journey so far</p>
         <h2 className={styles.sectionHeadText}>Timeline.</h2>
-      </motion.div>
-      <div className="mt-20 flex flex-col">
-        <VerticalTimeline>
-          {experiences.map((experience, index) => (
-            <ExperienceCard key={index} experience={experience} />
-          ))}
-        </VerticalTimeline>
-      </div>
-    </>
-  );
+        <div className="mt-20 flex flex-col">
+          <VerticalTimeline>
+            {experiences.map((experience, index) => (
+              <ExperienceCard key={index} experience={experience} />
+            ))}
+          </VerticalTimeline>
+        </div>
+      </>
+    );
+  }
 };
 
 export default SectionWrapper(Experience, "work");
