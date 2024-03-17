@@ -58,19 +58,39 @@ const services = [
     icon: trophy,
   },
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Full-Stack Developer",
+    icon: backend,
   },
   {
     title: "Python Developer",
     icon: python,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Linux Developer",
+    icon: linux,
   },
 ];
 const technologies = [
+  {
+    name: "C++",
+    icon: cpp,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "GitHub",
+    icon: github,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -83,18 +103,6 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "GitHub",
-    icon: github,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "C++",
-    icon: cpp,
-  },
 
   {
     name: "SQL",
@@ -104,19 +112,12 @@ const technologies = [
     name: "Three JS",
     icon: threejs,
   },
-  {
-    name: "git",
-    icon: git,
-  },
 
   {
     name: "C-language",
     icon: clang,
   },
-  {
-    name: "python",
-    icon: python,
-  },
+
   {
     name: "canva",
     icon: canva,

@@ -3,10 +3,10 @@ import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 
 const Tech = () => {
-  const isMobile = window.matchMedia("(max-width: 500px)").matches;
+  const isMobile = window.matchMedia("(max-width: 600px)").matches;
   const Map = (isMobile, technologies) => {
     if (isMobile) {
-      return technologies.slice(0, 5).map((technology) => (
+      return technologies.slice(0, 4).map((technology) => (
         <div className="w-28 h-28" key={technology.name}>
           <BallCanvas icon={technology.icon} />
           <p className="flex justify-center text-white font-bold">
