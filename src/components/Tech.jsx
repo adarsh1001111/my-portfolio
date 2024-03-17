@@ -3,7 +3,7 @@ import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 
 const Tech = () => {
-  const isMobile = window.matchMedia("(max-width: 600px)").matches;
+  const isMobile = window.matchMedia("(max-width: 500px)").matches;
   const Map = (isMobile, technologies) => {
     if (isMobile) {
       return technologies.slice(0, 4).map((technology) => (
