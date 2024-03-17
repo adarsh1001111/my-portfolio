@@ -234,6 +234,14 @@ const testimonials = [
     image:
       "https://media.licdn.com/dms/image/D5603AQEdp5DInhX7TQ/profile-displayphoto-shrink_800_800/0/1704691923739?e=1715817600&v=beta&t=N1hckSkouGzfEe1luiXnWWwQU-wdw-4NBNCyJWyYwOY",
   },
+  {
+    testimonial:
+      "I've had the pleasure of witnessing firsthand the exceptional skills of Adarsh. His dedication, creativity, and attention to detail set him apart in his field. He consistently delivers outstanding results, surpassing expectations every time. With his expertise and unwavering commitment, I have no doubt that he will continue to excel and make significant contributions in whatever he pursues.",
+    name: "Hardik Kumar Ranjan",
+    designation: "B.Tech in CSE ",
+    company: " JIIT",
+    image: "",
+  },
 ];
 const projects = [
   {
