@@ -40,7 +40,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Ayoo..I will get in touch with you ASAP!");
+          alert("Got Your Message! Will Contact You ASAP!");
           setForm({
             name: "",
             email: "",
@@ -50,7 +50,7 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.log(error);
-          alert("Something went wrong.");
+          alert("Something went wrong..Try Again!");
         }
       );
   };
@@ -61,7 +61,7 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
+        <p className={styles.sectionSubText}>Get In Touch With Me</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
         <form
           ref={formRef}
