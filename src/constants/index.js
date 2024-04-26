@@ -37,6 +37,7 @@ import {
   tripguide,
   threejs,
   python,
+  startify,
 } from "../assets";
 export const navLinks = [
   {
@@ -265,6 +266,31 @@ const projects = [
     ],
     image: rnm,
     source_code_link: "https://github.com/adarsh1001111/RocketAndMeteors-MAC-",
+  },
+  {
+    name: "Startify",
+    description:
+      "Startify is not just a platform; it's a catalyst for collaboration and growth. Designed to streamline the interaction between startup owners and investors.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "API",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: startify,
+    source_code_link: "https://github.com/adarsh1001111/SIH",
   },
   {
     name: "SIH",

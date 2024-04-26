@@ -1,3 +1,4 @@
+import startify from "./startify.png";
 import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -43,6 +44,7 @@ import linux from "./company/linux.png";
 import sih from "./sih.jpeg";
 import rnm from "./rocketandmeteros.png";
 export {
+  startify,
   sih,
   ds,
   rnm,
