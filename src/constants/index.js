@@ -290,7 +290,7 @@ const projects = [
       },
     ],
     image: startify,
-    source_code_link: "https://github.com/adarsh1001111/SIH",
+    source_code_link: "https://github.com/adarsh1001111/Startify",
   },
   {
     name: "SIH",
