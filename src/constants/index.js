@@ -225,7 +225,7 @@ const testimonials = [
     designation: "B.Tech+M.Tech in CSE ",
     company: " JIIT",
     image:
-      "https://media.licdn.com/dms/image/D5603AQHqYrmtEx3ulg/profile-displayphoto-shrink_800_800/0/1710067669030?e=1715817600&v=beta&t=HMG8kmw6B-Mo4EkuGe48dUglAml-NUem0EuyWm2kqvs",
+      "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
   },
   {
     testimonial:
@@ -234,7 +234,7 @@ const testimonials = [
     designation: "B.Tech+M.Tech in CSE ",
     company: " JIIT",
     image:
-      "https://media.licdn.com/dms/image/D5603AQEdp5DInhX7TQ/profile-displayphoto-shrink_800_800/0/1704691923739?e=1715817600&v=beta&t=N1hckSkouGzfEe1luiXnWWwQU-wdw-4NBNCyJWyYwOY",
+      "https://media.licdn.com/dms/image/D5603AQGzPPBvXmMikA/profile-displayphoto-shrink_100_100/0/1718819725263?e=1724284800&v=beta&t=lOP_vxNlZXeL-tUdAKUGifaxENCm_G7dc0fUgaFm7TE",
   },
   // {
   //   testimonial:
