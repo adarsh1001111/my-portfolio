@@ -5,9 +5,11 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+
 //
 //
 //
+import zod from "zod";
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -22,37 +24,52 @@ const Contact = () => {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoading(true);
-    emailjs
-      .send(
-        "service_v5l7de3",
-        "template_46rkc5h",
-        {
-          from_name: form.name,
-          to_name: "Adarsh",
-          from_email: form.email,
-          to_email: "adarsh.amit1001@gmail.com",
-          message: form.message,
-        },
-        "Ndp_lsZFc14-IQW0D"
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert("Got Your Message! Will Contact You ASAP!");
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setLoading(false);
-          console.log(error);
-          alert("Something went wrong..Try Again!");
-        }
-      );
+    try {
+      if (form.name == "" || form.email == "" || form.message == "") {
+        throw "One or More Input fields are blank";
+      }
+      e.preventDefault();
+      setLoading(true);
+      emailjs
+        .send(
+          "service_v5l7de3",
+          "template_46rkc5h",
+          {
+            from_name: form.name,
+            to_name: "Adarsh",
+            from_email: form.email,
+            to_email: "adarsh.amit1001@gmail.com",
+            message: form.message,
+          },
+          "Ndp_lsZFc14-IQW0D"
+        )
+        .then(
+          () => {
+            setLoading(false);
+            alert("Got Your Message! Will Contact You ASAP!");
+            setForm({
+              name: "",
+              email: "",
+              message: "",
+            });
+          },
+          (error) => {
+            setLoading(false);
+            console.log(error);
+            alert("Something went wrong..Try Again!");
+          }
+        );
+    } catch (error) {
+      e.preventDefault();
+      setLoading(false);
+      console.log(error);
+      alert("Blank- Fields are invalid!");
+      setForm({
+        name: "",
+        email: "",
+        message: "",
+      });
+    }
   };
 
   return (
