@@ -65,6 +65,15 @@ const Navbar = () => {
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className="list-none flex justify-end items-start flex-col gap-4">
+              <li>
+                <a href="https://drive.google.com/uc?export=download&id=1UO3Fo6dBFxel9gqZG3NTvUWW1mynrp4b">
+                  <img
+                    src={download_icon}
+                    alt="download"
+                    className="w-9 h-9 object-contain"
+                  />
+                </a>
+              </li>
               {navLinks.map((link) => (
                 <li
                   key={link.id}
