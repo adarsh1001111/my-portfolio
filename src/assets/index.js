@@ -1,4 +1,5 @@
 import startify from "./startify.png";
+import pp from "./linkedin pic.jpg";
 import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -43,7 +44,11 @@ import ds from "./company/ds.png";
 import linux from "./company/linux.png";
 import sih from "./sih.jpeg";
 import rnm from "./rocketandmeteros.png";
+import download from "./icons8-download-50.png";
+import download_icon from "./icons8-download-64 (1).png";
 export {
+  download_icon,
+  download,
   startify,
   sih,
   ds,
@@ -72,6 +77,7 @@ export {
   git,
   html,
   javascript,
+  pp,
   mongodb,
   nodejs,
   reactjs,

@@ -38,6 +38,7 @@ import {
   threejs,
   python,
   startify,
+  download_icon,
 } from "../assets";
 export const navLinks = [
   {

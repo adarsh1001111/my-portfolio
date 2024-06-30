@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { pp, download_icon, menu, close } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -20,12 +20,25 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <a href="https://www.linkedin.com/in/adarsh-amit-1001code/">
+            <img src={pp} alt="logo" className="w-9 h-9 object-contain" />
+          </a>
+
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             Adarsh Amit
           </p>
         </Link>
+
         <ul className="list-none hidden sm:flex flex-row gap-10">
+          <li>
+            <a href="https://drive.google.com/uc?export=download&id=1UO3Fo6dBFxel9gqZG3NTvUWW1mynrp4b">
+              <img
+                src={download_icon}
+                alt="download"
+                className="w-9 h-9 object-contain"
+              />
+            </a>
+          </li>
           {navLinks.map((link) => (
             <li
               key={link.id}
