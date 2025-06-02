@@ -1,6 +1,7 @@
 import startify from "./startify.png";
 import pp from "./linkedin pic.jpg";
 import logo from "./logo.svg";
+import soilbloom from "./SoilBloom.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -47,6 +48,7 @@ import rnm from "./rocketandmeteros.png";
 import download from "./icons8-download-50.png";
 import download_icon from "./icons8-download-64 (1).png";
 export {
+  soilbloom,
   moodbeats,
   download_icon,
   download,

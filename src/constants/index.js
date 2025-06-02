@@ -1,4 +1,5 @@
 import {
+  soilbloom,
   dsa,
   hack,
   github1,
@@ -244,7 +245,7 @@ const projects = [
   {
     name: "MoodBeats",
     description:
-      "Developed a cross-platform mobile application that dynamically recommends music playlists based on a user’s real-time emotional state (4 states), using data from wearable (Currently Fitbit) devices (BPM) and on-device sensors (gyroscope and accelerometer). The application was tested and used by 100+ users on campus.",
+      "Mobile Application that Recommends music playlists based on a user’s real-time emotional state , using data from wearable devices and on-device sensors. The application was tested and used by 100+ users on campus.",
     tags: [
       {
         name: "React-Native",
@@ -255,7 +256,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Python",
+        name: "Machine Learning",
         color: "pink-text-gradient",
       },
       {
@@ -265,6 +266,36 @@ const projects = [
     ],
     image: moodbeats,
     source_code_link: "https://github.com/adarsh1001111/MoodBeats",
+  },
+  {
+    name: "SoilBloom",
+    description:
+      "A unified AI-based platform integrating crop recommendation, yield prediction, and plant disease detection (covering 10+ diseases) for over 5 crops, aimed at assisting farmers in data-driven agricultural decision-making.",
+
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Machine Learning",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Flask",
+        color: "green-text-gradient",
+      },
+    ],
+    image: soilbloom,
+    source_code_link: "https://github.com/adarsh1001111/Minor_Project",
   },
   {
     name: "Rocket-And-Meteros",
@@ -286,36 +317,6 @@ const projects = [
     ],
     image: rnm,
     source_code_link: "https://github.com/adarsh1001111/RocketAndMeteors-MAC-",
-  },
-
-  {
-    name: "SIH",
-    description:
-      "The project targets to Tourism Domain Of the Govt. sector,integration of all the govt. affiliates databases is the core concept of our project!.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "js",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "php",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "sql",
-        color: "green-text-gradient",
-      },
-    ],
-    image: sih,
-    source_code_link: "https://github.com/adarsh1001111/SIH",
   },
 ];
 export { services, technologies, experiences, testimonials, projects };
