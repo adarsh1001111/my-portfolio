@@ -39,6 +39,7 @@ import {
   python,
   startify,
   download_icon,
+  moodbeats,
 } from "../assets";
 export const navLinks = [
   {
@@ -176,7 +177,7 @@ const experiences = [
     title: "Data-Science",
     company_name: "Bash-Scripting",
     icon: ds,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "December-2023",
     points: [
       "This journey involved learning essential concepts like data preprocessing, statistical analysis, and machine learning algorithms, setting the stage for understanding the transformative potential of data-driven decision-making in various domains.",
@@ -198,7 +199,7 @@ const experiences = [
     title: "Currently",
     company_name: "CP+Development",
     icon: reactjs,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "Present-Date",
     points: [
       "🏆 Continued exploration of web development",
@@ -227,7 +228,7 @@ const testimonials = [
     designation: "B.Tech+M.Tech in CSE ",
     company: " JIIT",
     image:
-      "https://media.licdn.com/dms/image/D5603AQGzPPBvXmMikA/profile-displayphoto-shrink_100_100/0/1718819725263?e=1724284800&v=beta&t=lOP_vxNlZXeL-tUdAKUGifaxENCm_G7dc0fUgaFm7TE",
+      "https://media.licdn.com/dms/image/v2/D5603AQGzPPBvXmMikA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718819725294?e=1754524800&v=beta&t=ol9tb6K8UsLHpul24TyD8znt2XawNiaue6K4Gd2hamQ",
   },
   {
     testimonial:
@@ -235,10 +236,36 @@ const testimonials = [
     name: "Hardik Kumar Ranjan",
     designation: "B.Tech in CSE ",
     company: " JIIT",
-    image: "",
+    image:
+      "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
   },
 ];
 const projects = [
+  {
+    name: "MoodBeats",
+    description:
+      "Developed a cross-platform mobile application that dynamically recommends music playlists based on a user’s real-time emotional state (4 states), using data from wearable (Currently Fitbit) devices (BPM) and on-device sensors (gyroscope and accelerometer). The application was tested and used by 100+ users on campus.",
+    tags: [
+      {
+        name: "React-Native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ExpoGo",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "FitbitAPI",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: moodbeats,
+    source_code_link: "https://github.com/adarsh1001111/MoodBeats",
+  },
   {
     name: "Rocket-And-Meteros",
     description:
@@ -260,31 +287,7 @@ const projects = [
     image: rnm,
     source_code_link: "https://github.com/adarsh1001111/RocketAndMeteors-MAC-",
   },
-  {
-    name: "Startify",
-    description:
-      "Startify is not just a platform; it's a catalyst for collaboration and growth. Designed to streamline the interaction between startup owners and investors.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "js",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "API",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: startify,
-    source_code_link: "https://github.com/adarsh1001111/Startify",
-  },
+
   {
     name: "SIH",
     description:

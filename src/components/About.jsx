@@ -37,12 +37,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a dynamic 3rd year student pursuing a Bachelor's degree in Computer
-        Science and Engineering at JIIT-Noida. With a passion for technology, I
-        have honed my skills in various programming languages including Python,
-        C++ and C, as well as Web Development. My journey into the realm of Data
-        Science and Machine Learning coupled with extensive experience in web
-        scraping, has further broadened my technical expertise.
+        I am a dynamic Final year student pursuing a Bachelor's degree in
+        Computer Science and Engineering at JIIT-Noida. With a passion for
+        technology, I have honed my skills in various programming languages
+        including Python, C++ and C, as well as Web Development. My journey into
+        the realm of Data Science and Machine Learning coupled with extensive
+        experience in web scraping, has further broadened my technical
+        expertise.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

@@ -8,7 +8,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import moodbeats from "./MoodBeats.jpg";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -47,6 +47,7 @@ import rnm from "./rocketandmeteros.png";
 import download from "./icons8-download-50.png";
 import download_icon from "./icons8-download-64 (1).png";
 export {
+  moodbeats,
   download_icon,
   download,
   startify,
