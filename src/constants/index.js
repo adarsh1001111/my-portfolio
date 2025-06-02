@@ -219,15 +219,7 @@ const testimonials = [
     image:
       "https://media.licdn.com/dms/image/v2/D5603AQFOaRNjeEuxXQ/profile-displayphoto-shrink_800_800/B56ZYWywrbGsAk-/0/1744139128665?e=1754524800&v=beta&t=FDkUV2AX0XCh0UM2CojhpaIO6Fpt0JiCDGFhtdspnhg",
   },
-  {
-    testimonial:
-      "Working with Adarsh on my project has been an absolute pleasure. His expertise and dedication significantly contributed to the success of our endeavor. Adarsh's commitment to excellence, prompt responses, and innovative problem-solving skills truly set him apart.",
-    name: "Abhijeet Kumar",
-    designation: "B.Tech+M.Tech in CSE ",
-    company: " JIIT",
-    image:
-      "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-  },
+
   {
     testimonial:
       "Adarsh played a pivotal role in our project's success. His expertise, dedication, and collaborative approach were truly commendable. I confidently endorse Adarsh for his outstanding contributions and teamwork.",
@@ -237,14 +229,14 @@ const testimonials = [
     image:
       "https://media.licdn.com/dms/image/D5603AQGzPPBvXmMikA/profile-displayphoto-shrink_100_100/0/1718819725263?e=1724284800&v=beta&t=lOP_vxNlZXeL-tUdAKUGifaxENCm_G7dc0fUgaFm7TE",
   },
-  // {
-  //   testimonial:
-  //     "I've had the pleasure of witnessing firsthand the exceptional skills of Adarsh. His dedication, creativity, and attention to detail set him apart in his field. He consistently delivers outstanding results, surpassing expectations every time. With his expertise and unwavering commitment, I have no doubt that he will continue to excel and make significant contributions in whatever he pursues.",
-  //   name: "Hardik Kumar Ranjan",
-  //   designation: "B.Tech in CSE ",
-  //   company: " JIIT",
-  //   image: "",
-  // },
+  {
+    testimonial:
+      "I've had the pleasure of witnessing firsthand the exceptional skills of Adarsh. His dedication, creativity, and attention to detail set him apart in his field. He consistently delivers outstanding results, surpassing expectations every time. With his expertise and unwavering commitment, I have no doubt that he will continue to excel and make significant contributions in whatever he pursues.",
+    name: "Hardik Kumar Ranjan",
+    designation: "B.Tech in CSE ",
+    company: " JIIT",
+    image: "",
+  },
 ];
 const projects = [
   {

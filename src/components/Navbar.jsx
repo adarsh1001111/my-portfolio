@@ -64,7 +64,7 @@ const Navbar = () => {
           >
             <ul className="list-none flex justify-end items-start flex-col gap-4">
               <li>
-                <a href="https://drive.google.com/uc?export=download&id=1UO3Fo6dBFxel9gqZG3NTvUWW1mynrp4b">
+                <a href="https://drive.google.com/uc?export=download&id=1uKtBS1fwEWxNfIOKCFoa8PAgV_gAYbXE">
                   <img
                     src={download_icon}
                     alt="download"
