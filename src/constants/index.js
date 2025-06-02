@@ -293,6 +293,10 @@ const projects = [
         name: "Flask",
         color: "green-text-gradient",
       },
+      {
+        name: "FireBase",
+        color: "pink-text-gradient",
+      },
     ],
     image: soilbloom,
     source_code_link: "https://github.com/adarsh1001111/Minor_Project",
