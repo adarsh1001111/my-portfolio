@@ -217,7 +217,7 @@ const testimonials = [
     designation: "B.Tech in CSE ",
     company: " JIIT",
     image:
-      "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "https://media.licdn.com/dms/image/v2/D5603AQFOaRNjeEuxXQ/profile-displayphoto-shrink_800_800/B56ZYWywrbGsAk-/0/1744139128665?e=1754524800&v=beta&t=FDkUV2AX0XCh0UM2CojhpaIO6Fpt0JiCDGFhtdspnhg",
   },
   {
     testimonial:
