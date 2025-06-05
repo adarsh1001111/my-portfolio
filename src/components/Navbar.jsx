@@ -29,7 +29,7 @@ const Navbar = () => {
 
         <ul className="list-none hidden sm:flex flex-row gap-10">
           <li>
-            <a href="https://drive.google.com/uc?export=download&id=1uKtBS1fwEWxNfIOKCFoa8PAgV_gAYbXE">
+            <a href="https://drive.google.com/uc?export=download&id=1gR1OadGqZ6cAEsn0V6XmCkfqVcC88XPF">
               <img
                 src={download_icon}
                 alt="download"
@@ -64,7 +64,7 @@ const Navbar = () => {
           >
             <ul className="list-none flex justify-end items-start flex-col gap-4">
               <li>
-                <a href="https://drive.google.com/uc?export=download&id=1uKtBS1fwEWxNfIOKCFoa8PAgV_gAYbXE">
+                <a href="https://drive.google.com/uc?export=download&id=1gR1OadGqZ6cAEsn0V6XmCkfqVcC88XPF">
                   <img
                     src={download_icon}
                     alt="download"
