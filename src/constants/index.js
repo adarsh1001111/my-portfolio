@@ -204,7 +204,8 @@ const experiences = [
     date: "Present-Date",
     points: [
       "🏆 Continued exploration of web development",
-      "🌟 Achieved a 2-star rating on CodeChef",
+      "🌟 Achieved a 3-star rating on CodeChef",
+      "🧩 Ranked Up to Pupil in Codeforces",
       "🛠️ Practiced building projects using the acquired web development skills.",
       "🔍 Further honed skills in web development",
       "🚀 Worked on advanced projects to solidify understanding and expertise in web technologies.",
